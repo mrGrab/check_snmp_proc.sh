@@ -1,5 +1,5 @@
 <H3 align=center>check_snmp_proc.sh</H3>
-<H5 align=center>Plugin for checking process (or quantity of them) status via SNMP writed in bash </H5>
+<H5 align=center>this is small nagios plugin for checking status of processes (or quantity of them) via SNMP writed in bash </H5>
 <br align=left><b>Usage:</b>
 <br align=left>./check_snmp_proc -H 127.0.0.1 -C public -N ssh -w 3 -c 0
 <br>
@@ -21,8 +21,3 @@
 <br>
 <br>  This plugin uses the 'snmpwalk' command included with the NET-SNMP package.
 <br>  This nagios plugins comes with ABSOLUTELY NO WARRANTY. So, enjoy ;)
-<br>Also plugin <b>return codes</b>:
-<br> OK=0
-<br>CRITICAL=2
-<br>WARNING=1
-<br>UNKNOWN=3
