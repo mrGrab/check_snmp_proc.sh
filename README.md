@@ -1,5 +1,5 @@
 <H3 align=center>check_snmp_proc.sh</H3>
-<H5 align=center>this is small nagios plugin for checking status of processes (or quantity of them) via SNMP writed in bash </H5>
+<H5 align=center>This is small Nagios plugin for checking status of processes (or quantity of them) via SNMP</H5>
 <br align=left><b>Usage:</b>
 <br align=left>./check_snmp_proc -H 127.0.0.1 -C public -N ssh -w 3 -c 0
 <br>
