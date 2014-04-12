@@ -7,7 +7,7 @@ STATE_WARNING=1
 STATE_UNKNOWN=3
 
 # Version
-VERSION="1"
+VERSION="1.1"
 
 # Commands
 CMD_BASENAME="/usr/bin/basename"
@@ -91,6 +91,7 @@ do
 done
 
 #Plugin 
+PROCN=${PROCN:0:15}
 CNT=`$CMD_SNMPWALK -v1 -On -c $COMM $HOST $OID | $CMD_GREP "\"$PROCN\"" | $CMD_WC -l`
 if [ $CNT -eq 0 ]; then
         STATE=$STATE_CRITICAL
