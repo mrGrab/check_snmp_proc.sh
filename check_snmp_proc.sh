@@ -10,10 +10,10 @@ STATE_UNKNOWN=3
 VERSION="1.1"
 
 # Commands
-CMD_BASENAME="/usr/bin/basename"
-CMD_SNMPWALK="/usr/bin/snmpwalk"
-CMD_GREP="/bin/grep"
-CMD_WC="/usr/bin/wc"
+CMD_BASENAME=$(which basename)
+CMD_SNMPWALK=$(which snmpwalk)
+CMD_GREP=$(which grep)
+CMD_WC=$(which wc)
 
 # Script name
 SCRIPTNAME=`$CMD_BASENAME $0`
