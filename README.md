@@ -1,3 +1,5 @@
+<h3>Moved to https://gitlab.com/nagios_plugins/check_snmp_proc.sh</h3>
+
 <H3 align=center>check_snmp_proc.sh</H3>
 <H5 align=center>This is small Nagios plugin for checking status of processes (or quantity of them) via SNMP</H5>
 <br align=left><b>Usage:</b>
